@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.sectionOne {
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-image: url("../public/img2.png");
+  background-blend-mode: screen;
+
+}
+.shop {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.shop:hover{
+  background-color: rgb(236, 236, 19);
+}
+.icons{
+  font-size: 22px;
+  color: rgb(65, 62, 62);
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+.iconTwo{
+  font-size: 19px;
+  color: white;
+}
+.icon:hover{
+  color: yellow;
+}
+
+
+
