@@ -14,7 +14,7 @@ export default function Header() {
     <nav className="px-32 pt-10 bg-slate-100">
       <div className=" relative ">
         <Link href="/">
-          <Image src={logo} width={200} height={70} className="absolute" />
+          <Image src={logo} width={150} height={50} className="absolute" />
         </Link>
         <div className="icons absolute right-0 top-0">
           <FaSearch className="mx-3 icon" />
